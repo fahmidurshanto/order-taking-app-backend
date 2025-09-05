@@ -18,7 +18,8 @@ const corsOptions = {
     'http://localhost:3000', 
     'http://127.0.0.1:5173',
     'https://your-frontend-deployment.vercel.app', // Add your frontend deployment URL
-    'https://*.vercel.app' // Allow all Vercel deployments
+    'https://*.vercel.app', // Allow all Vercel deployments
+    'https://soudia-tailors-client.vercel.app' // Your specific Vercel frontend URL
   ],
   credentials: true,
   optionsSuccessStatus: 200,
